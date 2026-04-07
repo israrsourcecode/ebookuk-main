@@ -1,0 +1,58 @@
+button {
+    background: var(--secondary);
+    color: #ffff;
+    border-radius: 6px;
+    border: none;
+    border: 1px solid transparent;
+    padding: 6px 20px;
+    font-size: 1rem;
+    font-family: var(--font-500);
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: var(--primary);
+    color: #ffff;
+    font-family: var(--font-500);
+}
+
+.brand {
+    width: 100%;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.common-btn {
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 10px 14px;
+    font-size: 1rem;
+    font-family: var(--font-500);
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.common-btn.red {
+    background: var(--secondary);
+    color: #fff;
+}
+.common-btn.red_border {
+    background: var(--secondary);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.common-btn.black {
+    color: #000;
+    border-color: #000;
+}
+
+.common-btn.white {
+    color: #fff;
+    border-color: #fff;
+}
+
+.common-btn:hover {
+    background: var(--primary);
+    color: #fff;
+}

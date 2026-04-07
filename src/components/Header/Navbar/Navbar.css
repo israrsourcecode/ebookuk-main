@@ -1,0 +1,131 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background: #fff;
+}
+
+/* MENU */
+.navbar ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 40px;
+}
+
+.navbar ul li {
+    list-style: none;
+    position: relative;
+}
+
+/* LINKS */
+.nav-hover {
+    text-decoration: none;
+    font-family: var(--font-500);
+    color: #3F3D52;
+    font-size: 1rem;
+    padding: 10px 0;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* TEXT HOVER */
+.nav-hover:hover {
+    color: var(--secondary);
+}
+
+/* UNDERLINE EFFECT */
+.nav-hover::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: -2px;
+    background: var(--secondary);
+    transition: 0.3s ease;
+}
+
+.nav-hover:hover::after {
+    width: 100%;
+}
+
+/* DROPDOWN */
+.nav-drop {
+    position: relative;
+}
+
+/* DROPDOWN MENU */
+.dropdown {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 220px;
+    background: var(--secondary);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease;
+    z-index: 10;
+    gap: 0 !important;
+}
+
+/* SHOW DROPDOWN */
+.nav-drop:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+/* DROPDOWN ITEMS */
+.dropdown li {
+    width: 100%;
+    border-radius: 8px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.dropdown li a {
+    display: block;
+    padding: 8px 10px;
+    color: #fff;
+    border-radius: 8px;
+
+    text-decoration: none;
+    font-family: var(--font-500);
+}
+
+/* HOVER ITEM */
+.dropdown li:hover {
+    background: #fff;
+}
+
+.dropdown li:hover a {
+    color: var(--secondary);
+}
+
+/* ICON */
+.nav-drop i {
+    font-size: 1.4rem;
+}
+/* ACTIVE LINK SAME AS HOVER */
+.nav-hover.active {
+    color: var(--secondary);
+}
+
+/* underline for active */
+.nav-hover.active::after {
+    width: 100%;
+}
+
+.dropdown .active{
+     background: #fff;
+     color: var(--secondary);
+}

@@ -1,0 +1,33 @@
+.SecondBanner {
+    background: url("../../assets/images/bottom-banner.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 170px;
+}
+
+.SecondBanner .container>:first-child {
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.SecondBanner_data {
+    color: #fff;
+}
+
+.SecondBanner_data h3 {
+
+    font-size: 1.8rem;
+}
+
+.SecondBanner_data h2 {
+    font-family: var(--font-500);
+    font-size: 2.8rem;
+}
+
+.SecondBanner_data p {
+    color: #fff;
+    margin-top: 24px;
+    font-size: 1.1rem;
+}

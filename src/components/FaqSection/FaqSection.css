@@ -1,0 +1,30 @@
+.faqSection .row {
+    align-items: center;
+}
+
+.faq-bg {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.faq-bg::after {
+    content: "";
+    border-radius: 16px;
+    position: absolute;
+    width: 65%;
+    height: 120%;
+    top: -10%;
+    bottom: -10%;
+    background: url("../src/assets/images/faq-bg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+.faq-img {
+    text-align: center;
+}

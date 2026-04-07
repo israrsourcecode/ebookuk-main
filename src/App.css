@@ -1,0 +1,185 @@
+/* Home Hero */
+.hero {
+    /* padding: 50px 0; */
+    background: url(./assets/images/top-banner.webp);
+    color: #000;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .row {
+    align-items: center;
+}
+
+.hero-data h1 {
+    font-size: 3.6rem;
+    line-height: 58px;
+    font-family: var(--font-400);
+}
+
+.hero-data h1 span {
+    color: var(--light-secondary);
+    font-family: var(--font-600);
+
+}
+
+.hero-data h2 {
+    margin: 20px 0;
+    font-size: 1.4rem;
+    line-height: 24px;
+    font-family: var(--font-400);
+}
+
+.hero-data h2 span {
+    font-size: 1.4rem;
+    color: var(--light-secondary);
+    font-family: var(--font-500);
+}
+
+.hero-data p {
+    font-size: 1rem;
+    font-family: var(--font-400);
+    line-height: 20px;
+}
+
+.image {
+    width: 100%;
+}
+
+.sec-1 {
+    background: #F6F6F6;
+}
+
+.sec-1 .container>:first-child {
+    align-items: center;
+}
+
+
+.sec-1 .container>:nth-child(2) {
+    margin: 40px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Vertical Card over */
+.VerticalHover {
+    background: url("./assets/images/process-bg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    color: #fff;
+}
+
+.VerticalHover p {
+    color: #fff;
+}
+
+
+.reviewSliderSection{
+    background: #F6F6F6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Animation */
+.animate-up {
+  animation: up 3s ease-in-out infinite;
+}
+
+@keyframes up {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-16px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-zoom {
+  animation: zoom-in-zoom-out 3s ease-out infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.9);
+    transition: all 0.5s ease-in-out;
+  }
+
+  30% {
+    transform: scale(1);
+    transition: all 0.7s ease-in-out;
+  }
+
+  50% {
+    transform: scale(1.2);
+    transition: all 0.7s ease-in-out;
+  }
+
+  50% {
+    transform: scale(1);
+    transition: all 0.7s ease-in-out;
+  }
+
+  100% {
+    transform: scale(0.9);
+    transition: all 0.7s ease-in-out;
+  }
+}

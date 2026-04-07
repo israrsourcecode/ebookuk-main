@@ -1,0 +1,55 @@
+.hoverCard::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 114%;
+    z-index: -1;
+    left: -13px;
+    top: -12px;
+    background: linear-gradient(90deg, #001B69 0%, #C9082A 100%);
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hoverCard:hover::before {
+    width: 106%;
+}
+
+.hoverCard {
+    margin-bottom: 2px;
+    /* width: 30%; */
+    max-width: 380px;
+    display: flex;
+    position: relative;
+    gap: 10px;
+    padding: 16px;
+    align-items: flex-start;
+    border-radius: 12px;
+    background: #F7F7F7;
+    align-items: flex-start;
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+}
+
+.heroCard_left {
+    color: #ffffff;
+    background: #C9082A;
+    border-radius: 6px;
+    padding: 4px 10px;
+}
+
+.heroCard_left i {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.hoverCard h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-family: var(--font-600);
+}
+
+.hoverCard p {
+    font-size: 0.9rem;
+    line-height: 20px;
+}

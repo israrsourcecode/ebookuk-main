@@ -1,0 +1,120 @@
+.footer_Form{
+    margin-bottom: -250px;
+}
+.Footer_form_main {
+    display: flex;
+}
+
+.footer_Form_Left {
+    position: relative;
+    width: 50%;
+}
+.footer_Form_Left img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.footer_form_left_box {
+    position: absolute;
+    background: #001B69;
+    bottom: 0;
+    width: 65%;
+    color: #fff;
+    padding: 26px 32px;
+    border: 1px solid #fff;
+}
+
+.footer_form_left_box h3 {
+    font-size: 1.8rem;
+    font-family: var(--font-500);
+}
+
+
+.footer_form_left_box p {
+    font-size: 1rem;
+    font-family: var(--font-400);
+    line-height: 20px;
+    color: #fff;
+}
+
+.footer_form_right {
+    background: #C9082A;
+    padding: 42px 20px;
+    color: #fff;
+    width: 50%;
+}
+
+.footer_form_right h3 {
+    font-size: 2rem;
+    font-family: var(--font-500);
+}
+
+.footer_form_right h4 {
+    margin-top: 20px;
+    font-size: 1.6rem;
+    font-family: var(--font-300);
+}
+
+.footer_form_right h3 span {
+    display: block;
+}
+.footer_form_right form{
+    margin-top: 20px;
+}
+.footer_form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.inputbox {
+    width: 49%;
+}
+
+.inputbox label,
+.textarebox label {
+    display: block;
+    font-family: var(--font-500);
+    margin-bottom: 4px;
+    font-size: 1rem;
+}
+
+.inputbox input,
+.inputbox select {
+    outline: none;
+    width: 100%;
+    padding: 8px 10px;
+}
+
+.textarebox label {
+    margin-top: 10px;
+}
+
+.textarebox textarea {
+    width: 100%;
+}
+
+.footer_form_bottom {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer_form_bottom button {
+    background: var(--primary);
+    padding: 6px 40px;
+    transition: all 0.3s ease-in-out;
+}
+.footer_form_bottom button:hover {
+    background: #fff;
+    color: var(--primary);
+    padding: 6px 40px;
+}
+
+.footer_form_bottom p {
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 18px;
+    font-family: var(--font-400);
+}
