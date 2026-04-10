@@ -1,3 +1,8 @@
+header{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
 /* Home Hero */
 .hero {
     /* padding: 50px 0; */

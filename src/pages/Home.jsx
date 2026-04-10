@@ -166,7 +166,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col-12 col-md-12 col-lg-6">
                             <div className="image animate-zoom">
-                                <img src="../src/assets/images/home-sec-1.webp" alt="" />
+                                <img className="img-fluid" src="../src/assets/images/home-sec-1.webp" alt="" />
                             </div>
                         </div>
                         <div className="col-12 col-md-12 col-lg-6">

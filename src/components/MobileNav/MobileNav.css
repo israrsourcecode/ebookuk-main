@@ -1,0 +1,131 @@
+.mobile-nav {
+    display: none;
+
+    button {
+        padding: 2px 8px;
+        background: var(--secondary);
+
+        border-radius: 6px;
+        border: none;
+        border: 1px solid transparent;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            background: var(--primary);
+        }
+
+
+        i {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #ffff;
+        }
+    }
+}
+
+.mobile-nav button:hover {
+    color: var(--bs-btn-close-color);
+}
+
+.btn-close:hover {
+    color: var(--bs-btn-close-color);
+    opacity: var(--bs-btn-close-hover-opacity);
+}
+
+.mobile-nav-img {
+    width: 40%;
+}
+
+
+
+.mobile-nav-data {
+    ul {
+        padding: 0;
+
+        li {
+            list-style: none;
+        }
+    }
+}
+
+.mobile-nav-data {
+    ul {
+        li {
+            margin: 30px 0;
+
+            .nav-hover {
+                padding: 10px 0;
+            }
+        }
+    }
+}
+
+.mobile-nav-data {
+    .nav-drop {
+        .dropdown {
+            background: var(--primary);
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, opacity 0.2s ease;
+            opacity: 0;
+            margin: 0;
+
+            li {
+                margin: 4px 0;
+            }
+        }
+
+        .nav-hover {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            i {
+                transform: rotate(0deg);
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+}
+
+.mobile-nav-data {
+    .nav-drop.dropdownview {
+        .dropdown {
+            max-height: 500px;
+            padding: 20px;
+            opacity: 1;
+        }
+
+        .nav-hover {
+            i {
+                transform: rotate(136deg);
+            }
+        }
+    }
+
+}
+
+
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.25),
+screen and (min-resolution: 120dpi) {}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (max-width: 992px) {}
+
+@media (min-width: 1024px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .mobile-nav {
+        display: unset;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .mobile-nav {
+        display: unset;
+    }
+}

@@ -1,5 +1,6 @@
 import { NavLink, useLocation } from 'react-router-dom'
 import './Navbar.css'
+import MobileNav from '../../MobileNav/MobileNav';
 
 const Navbar = () => {
   const location = useLocation();
@@ -9,10 +10,11 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
       <NavLink to="/" className='nav-logo'>
-        <img src="/src/assets/images/logo.svg" alt="logo" />
+        <img className='img-fluid' src="/src/assets/images/logo.svg" alt="logo" />
       </NavLink>
 
-      <ul>
+      <MobileNav />
+      <ul className='nav-ul'>
         <li>
           <NavLink className='nav-hover' to="/">Home</NavLink>
         </li>
@@ -23,7 +25,7 @@ const Navbar = () => {
 
         <li className='nav-drop'>
           <span className={`nav-hover ${isServiceActive ? 'active' : ''}`}>
-            Services 
+            Services
           </span>
 
           <ul className='dropdown'>
