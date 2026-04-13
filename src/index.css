@@ -111,13 +111,15 @@ section {
   width: 700px;
   text-align: center;
 }
-.heading span{
+
+.heading span {
   display: block;
 }
+
 .heading.left {
   text-align: left;
   margin: 0;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .heading.right {
@@ -130,4 +132,53 @@ section {
 
 .heading h2 {
   margin-bottom: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.25),
+screen and (min-resolution: 120dpi) {}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (max-width: 992px) {}
+
+@media (min-width: 1024px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 1023px) {}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .heading {
+    width: fit-content;
+  }
+
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 36px;
+  }
 }

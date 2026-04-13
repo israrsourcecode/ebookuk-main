@@ -190,7 +190,7 @@ const Home = () => {
 
             {/* Section 2 */}
             <section className="sec-2">
-                <HeadingCenter heading={"The Right Partner Makes Every Book Stronger"} para={"Writing a book takes courage. Publishing it requires the right support. Our team works closely with authors so their stories reach readers in the best possible form."} />
+                <HeadingCenter name={"center"} heading={"The Right Partner Makes Every Book Stronger"} para={"Writing a book takes courage. Publishing it requires the right support. Our team works closely with authors so their stories reach readers in the best possible form."} />
 
                 <div className="container">
                     <div className="row g-5">

@@ -1,8 +1,9 @@
-.heroBottom{
+.heroBottom {
     /* position: relative;
     top: -76px; */
     margin-top: -76px;
 }
+
 .heroBottom .row {
     align-items: flex-end;
 }
@@ -67,4 +68,40 @@
     font-family: var(--font-400);
     font-size: 1rem;
     margin: 0;
+}
+
+
+
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.25),
+screen and (min-resolution: 120dpi) {}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (max-width: 992px) {}
+
+@media (min-width: 1024px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 1023px) {}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .heroBottom {
+        margin: 40px 0;
+    }
+
+    .heroBottom .row {
+        gap: 20px;
+    }
+
+    .hero_form input, .hero_form select {
+        width: 100%;
+    }
+
+    .hero_form_box form {
+        text-align: center;
+    }
+
+   
 }

@@ -157,8 +157,17 @@ screen and (min-resolution: 120dpi) {}
 
 @media (min-width: 320px) and (max-width: 767px) {
     .navbar {
+        padding: 10px 22px;
+
+        .nav-logo {
+            width: 40%;
+        }
+
         ul {
             display: none;
         }
+
+
     }
+
 }

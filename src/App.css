@@ -1,108 +1,96 @@
-header{
+header {
   position: sticky;
   top: 0;
   z-index: 999;
 }
+
 /* Home Hero */
 .hero {
-    /* padding: 50px 0; */
-    background: url(./assets/images/top-banner.webp);
-    color: #000;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  /* padding: 50px 0; */
+  background: url(./assets/images/top-banner.webp);
+  color: #000;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero .row {
-    align-items: center;
+  align-items: center;
 }
 
 .hero-data h1 {
-    font-size: 3.6rem;
-    line-height: 58px;
-    font-family: var(--font-400);
+  font-size: 3.6rem;
+  line-height: 58px;
+  font-family: var(--font-400);
 }
 
 .hero-data h1 span {
-    color: var(--light-secondary);
-    font-family: var(--font-600);
+  color: var(--light-secondary);
+  font-family: var(--font-600);
 
 }
 
 .hero-data h2 {
-    margin: 20px 0;
-    font-size: 1.4rem;
-    line-height: 24px;
-    font-family: var(--font-400);
+  margin: 20px 0;
+  font-size: 1.4rem;
+  line-height: 24px;
+  font-family: var(--font-400);
 }
 
 .hero-data h2 span {
-    font-size: 1.4rem;
-    color: var(--light-secondary);
-    font-family: var(--font-500);
+  font-size: 1.4rem;
+  color: var(--light-secondary);
+  font-family: var(--font-500);
 }
 
 .hero-data p {
-    font-size: 1rem;
-    font-family: var(--font-400);
-    line-height: 20px;
+  font-size: 1rem;
+  font-family: var(--font-400);
+  line-height: 20px;
 }
 
 .image {
-    width: 100%;
+  width: 100%;
 }
 
 .sec-1 {
-    background: #F6F6F6;
+  background: #F6F6F6;
 }
 
 .sec-1 .container>:first-child {
-    align-items: center;
+  align-items: center;
 }
 
 
 .sec-1 .container>:nth-child(2) {
-    margin: 40px 0;
+  margin: 40px 0;
 }
 
 .buttons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 /* Vertical Card over */
 .VerticalHover {
-    background: url("./assets/images/process-bg.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 60px;
-    color: #fff;
+  background: url("./assets/images/process-bg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+  color: #fff;
 }
 
 .VerticalHover p {
-    color: #fff;
+  color: #fff;
 }
 
 
-.reviewSliderSection{
-    background: #F6F6F6;
+.reviewSliderSection {
+  background: #F6F6F6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -187,4 +175,56 @@ header{
     transform: scale(0.9);
     transition: all 0.7s ease-in-out;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.25),
+screen and (min-resolution: 120dpi) {}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (max-width: 992px) {}
+
+@media (min-width: 1024px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 1023px) {}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .hero-title {
+    text-align: center;
+  }
+
+  .hero-data h1 {
+    font-size: 2.2rem;
+    line-height: 38px;
+  }
+
+  .hero-data h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero-img {
+    width: 74%;
+    margin: 20px auto;
+  }
+
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 32px;
+  }
+  .sec-2 .heading {
+    padding: 0px 12px;
+}
 }
