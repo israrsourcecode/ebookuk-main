@@ -5,6 +5,7 @@
 .bottom-nav ul {
     display: flex;
     margin: 0;
+    padding-left:0 ;
     justify-content: center;
     gap: 70px;
 }
