@@ -19,7 +19,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-12 col-md-6 col-lg-3">
+                        <div className="col-12 col-md-3 col-lg-3">
                             <div className="footer_box">
                                 <h4>Quick Links</h4>
                                 <ul>
@@ -30,7 +30,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-3">
+                        <div className="col-12 col-md-3 col-lg-3">
                             <div className="footer_box">
                                 <h4>Services</h4>
                                 <ul>
@@ -42,7 +42,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-3">
+                        <div className="col-12 col-md-3 col-lg-3">
                             <div className="footer_box">
                                 <h4>Gerne</h4>
                                 <ul>
@@ -54,12 +54,12 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-3">
+                        <div className="col-12 col-md-3 col-lg-3">
                             <div className="footer_box">
                                 <h4>Contact Us</h4>
                                 <ul>
                                     <li><Link><i className="ri-map-pin-fill"></i> Dummy</Link></li>
-                                    <li><Link><i className="ri-phone-fill"></i> (0000)00000-000</Link></li>
+                                    <li><Link><i className="ri-phone-fill"></i>(0000)00000</Link></li>
                                     <li><Link><i className="ri-mail-fill"></i> dumy@addreess</Link></li>
                                 </ul>
                             </div>

@@ -146,19 +146,20 @@ const Home = () => {
             <section className="hero">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-md-6 col-lg-6">
+                        <div className="col-12 col-md-12 col-lg-6">
                             <div className="hero-data">
                                 <HeroTitle heading={<>Every Great Book Begins With a <span> Voice Like Yours</span></>} headingpara={<>Avail the <span>best eBook writing services</span> at pocket-friendly rates</>} para={"Our ebook publishing platform helps authors transform their thoughts into books that readers can hold on their screens and remember long after the final page."} />
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-6">
+                        <div className="col-12 col-md-12 col-lg-6">
                             <HeroImg img_url={"../src/assets/images/top-banner-book.webp"} />
                         </div>
                     </div>
                 </div>
             </section>
             <HeroBottom />
-            <BrandReview />
+            {/* <BrandReview /> */}
+            <BrandSlider />
 
             {/* Section 1 */}
             <section className="sec-1">
@@ -203,7 +204,6 @@ const Home = () => {
                 </div>
             </section>
 
-            <BrandSlider />
 
             <SecondBanner h2={"Your Story Has Waited Long Enough"} h3={"Start Your Journey Now"} para={"That manuscript sitting quietly on your computer deserves readers. Let us help you bring it to life."} />
 
@@ -234,12 +234,12 @@ const Home = () => {
             <section className="reviewSliderSection">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-md-6 col-lg-6">
+                        <div className="col-12 col-md-12 col-lg-6">
                             <div className="reviewSliderSectionData">
                                 <HeadingCenter heading={"Writers Share"} subHeading={"Their Experience With Us"} name={"left"} para={"Behind every review stands an author who once held an unfinished manuscript. These writers trusted us with their ideas. Today, their books sit proudly on digital shelves."} />
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-6">
+                        <div className="col-12 col-md-12 col-lg-6">
                             <div className="reviewSliderMain">
                                 <ReviewSlider data={reviewSliderData} />
                             </div>

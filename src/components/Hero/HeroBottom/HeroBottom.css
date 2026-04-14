@@ -84,7 +84,15 @@ screen and (min-resolution: 120dpi) {}
 
 @media (min-width: 1024px) and (max-width: 1199px) {}
 
-@media (min-width: 768px) and (max-width: 1023px) {}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .heroBottom .row {
+        gap: 20px;
+    }
+
+    .hero_review_boxes {
+        justify-content: space-around;
+    }
+}
 
 @media (min-width: 320px) and (max-width: 767px) {
     .heroBottom {
@@ -103,5 +111,5 @@ screen and (min-resolution: 120dpi) {}
         text-align: center;
     }
 
-   
+
 }

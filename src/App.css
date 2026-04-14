@@ -198,9 +198,64 @@ screen and (min-resolution: 120dpi) {}
 
 @media (min-width: 1024px) and (max-width: 1199px) {}
 
-@media (min-width: 768px) and (max-width: 1023px) {}
+@media (min-width: 768px) and (max-width: 1023px) {
+  h2 {
+    font-size: 2.4rem;
+    line-height: 40px;
+  }
+
+  .hero-data {
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 60%;
+    margin: auto;
+  }
+
+  .heading h2,
+  .heading p {
+    text-align: center;
+  }
+
+  .sec-1 {
+    text-align: center;
+  }
+
+  .sec-1 .container>:nth-child(2) {
+    margin: 0;
+    gap: 10px;
+    margin-top: 26px;
+    margin-bottom: 36px;
+  }
+
+  .image {
+    width: 60%;
+    margin: auto;
+  }
+
+  .SecondBanner_data p {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .VerticalHover {
+    overflow: hidden;
+  }
+
+
+  .reviewSliderSection .row {
+    gap: 40px;
+  }
+
+  .reviewSliderSection .heading p {
+    text-align: center;
+  }
+}
 
 @media (min-width: 320px) and (max-width: 767px) {
+
   .hero-title {
     text-align: center;
   }
@@ -224,7 +279,17 @@ screen and (min-resolution: 120dpi) {}
     text-align: center;
     line-height: 32px;
   }
+
+  .heading p {
+    text-align: center;
+
+  }
+
   .sec-2 .heading {
     padding: 0px 12px;
-}
+  }
+
+  .sec-1 p {
+    text-align: center;
+  }
 }

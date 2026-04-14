@@ -1,6 +1,7 @@
-.footer_Form{
+.footer_Form {
     margin-bottom: -250px;
 }
+
 .Footer_form_main {
     display: flex;
 }
@@ -9,11 +10,13 @@
     position: relative;
     width: 50%;
 }
-.footer_Form_Left img{
+
+.footer_Form_Left img {
     width: 100%;
     object-fit: cover;
     height: 100%;
 }
+
 .footer_form_left_box {
     position: absolute;
     background: #001B69;
@@ -58,9 +61,11 @@
 .footer_form_right h3 span {
     display: block;
 }
-.footer_form_right form{
+
+.footer_form_right form {
     margin-top: 20px;
 }
+
 .footer_form {
     display: flex;
     flex-wrap: wrap;
@@ -106,6 +111,7 @@
     padding: 6px 40px;
     transition: all 0.3s ease-in-out;
 }
+
 .footer_form_bottom button:hover {
     background: #fff;
     color: var(--primary);
@@ -117,4 +123,115 @@
     font-size: 0.9rem;
     line-height: 18px;
     font-family: var(--font-400);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.25),
+screen and (min-resolution: 120dpi) {}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (max-width: 992px) {}
+
+@media (min-width: 1024px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer_Form {
+        margin: 50px 0;
+    }
+
+    .Footer_form_main {
+        width: 100%;
+    }
+
+    .footer_form_left_box {
+        border: none;
+        border-top:1px solid #fff ;
+    }
+
+    .footer_Form_Left, .footer_form_right {
+        width: 100%;
+    }
+
+    .footer_form_left_box {
+        width: 100%;
+    }
+
+    .inputbox {
+        width: 100%;
+    }
+
+    .footer_form_bottom {
+        gap: 20px;
+
+    }
+
+    .footer_form_bottom {
+        gap: 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .footer_Form {
+        margin: 50px 0;
+    }
+
+    .Footer_form_main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer_Form_Left, .footer_form_right {
+        width: 100%;
+    }
+
+    .inputbox {
+        width: 100%;
+    }
+
+    .footer_Form_Left img {
+        display: none;
+    }
+
+    .footer_form_left_box {
+        position: unset;
+        width: 100%;
+        border: none;
+        text-align: center;
+    }
+
+    .footer_form_right h3 {
+        text-align: center;
+    }
+
+    .footer_form_right h4 {
+        text-align: center;
+    }
+
+    .footer_form_bottom {
+        gap: 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
 }

@@ -16,6 +16,7 @@
     background: var(--secondary);
     color: #fff;
 }
+
 .GalleryTabs button:hover {
     background: var(--secondary);
     color: #fff;
@@ -37,9 +38,10 @@
     transition: all 0.3s ease-in-out;
     overflow: hidden;
 }
-.gallery .card:hover{
+
+.gallery .card:hover {
     transform: rotate(24deg);
-    scale:1.08;
+    scale: 1.08;
     z-index: 9;
 }
 
@@ -48,4 +50,60 @@
     height: 100%;
     object-fit: fill;
     object-position: center;
+}
+
+
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.25),
+screen and (min-resolution: 120dpi) {}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (max-width: 992px) {}
+
+@media (min-width: 1024px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .GalleryTab {
+        overflow: hidden;
+    }
+
+    .GalleryTabs button {
+        padding: 8px;
+        font-size: 1.2rem;
+    }
+
+    .gallery .card {
+        height: 226px;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .GalleryTab {
+        overflow: hidden;
+    }
+
+    .GalleryTabs {
+        margin-bottom: 20px;
+    }
+
+    .GalleryTabs button {
+        width: 50%;
+        padding: 10px 0px;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+
+
+    .gallery {
+        gap: 10px;
+    }
+
+    .gallery .card {
+        height: 210px;
+    }
 }

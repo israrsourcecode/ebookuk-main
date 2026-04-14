@@ -1,0 +1,63 @@
+.services-img {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.25),
+screen and (min-resolution: 120dpi) {}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (max-width: 992px) {}
+
+@media (min-width: 1024px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .services-img {
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+.servicesCardContainer{
+    margin-top: 36px ;
+}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .services-img {
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .servicesCardIcon {
+        text-align: center;
+        margin-bottom: 6px;
+    }
+
+    .servicesCard {
+        width: 100%;
+        text-align: center;
+    }
+
+    .servicesCardContainer> :nth-child(1), .servicesCardContainer> :nth-child(4) {
+        border-radius: 12px;
+        /* background: transparent; */
+    }
+
+    .servicesCard {
+        border-radius: 12px;
+        background: #F6F6F6;
+    }
+
+    .servicesCardContainer {
+        margin-top: 26px;
+        gap: 20px;
+
+    }
+}

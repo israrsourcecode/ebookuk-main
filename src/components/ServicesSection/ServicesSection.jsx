@@ -8,7 +8,7 @@ const ServicesSection = ({ data, heading, para, name, img }) => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-md-12 col-lg-6">
-                        <img className='img-fluid animate-up' src={img} alt="" />
+                        <img className='services-img animate-up' src={img} alt="" />
                     </div>
                     <div className="col-12 col-md-12 col-lg-6">
                         <HeadingCenter heading={heading} name={name} para={para} />

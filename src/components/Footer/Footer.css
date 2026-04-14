@@ -79,3 +79,42 @@ footer .row {
     color: #fff;
     font-size: 1rem;
 }
+
+
+
+
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.25),
+screen and (min-resolution: 120dpi) {}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (max-width: 992px) {}
+
+@media (min-width: 1024px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    footer {
+        padding-top: unset;
+    }
+
+    .footer_top {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .footer_box {
+        text-align: center;
+        margin: 12px 0;
+    }
+
+    .footer_box ul {
+        margin-top: 0;
+    }
+}

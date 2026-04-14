@@ -65,12 +65,12 @@ const Gallery = () => {
                 <div className="row">
                     <div className="col-12 col-md-4 col-lg-4">
                         <div className="GalleryTabs">
-                            <button onClick={() => handleTabe("fiction")} className={activeTab === "fiction" ? "active" : ""}>Fiction (26)</button>
-                            <button onClick={() => handleTabe("nonfiction")} className={activeTab === "nonfiction" ? "active" : ""}>Non Fiction (8)</button>
-                            <button onClick={() => handleTabe("biography")} className={activeTab === "biography" ? "active" : ""}>Biography (19)</button>
-                            <button onClick={() => handleTabe("childrenbooks")} className={activeTab === "childrenbooks" ? "active" : ""}>Children Books (11)</button>
-                            <button onClick={() => handleTabe("autobiography")} className={activeTab === "autobiography" ? "active" : ""} >Autobiography (09)</button>
-                            <button onClick={() => handleTabe("businessbooks")} className={activeTab === "businessbooks" ? "active" : ""}>Business Books (08)</button>
+                            <button onClick={() => handleTabe("fiction")} className={activeTab === "fiction" ? "active" : ""}>Fiction</button>
+                            <button onClick={() => handleTabe("nonfiction")} className={activeTab === "nonfiction" ? "active" : ""}>Non Fiction</button>
+                            <button onClick={() => handleTabe("biography")} className={activeTab === "biography" ? "active" : ""}>Biography</button>
+                            <button onClick={() => handleTabe("childrenbooks")} className={activeTab === "childrenbooks" ? "active" : ""}>Children Books</button>
+                            <button onClick={() => handleTabe("autobiography")} className={activeTab === "autobiography" ? "active" : ""} >Autobiography</button>
+                            <button onClick={() => handleTabe("businessbooks")} className={activeTab === "businessbooks" ? "active" : ""}>Business Books</button>
                         </div>
                     </div>
                     <div className="col-12 col-md-8 col-lg-8">
