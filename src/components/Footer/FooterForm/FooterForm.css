@@ -143,7 +143,7 @@
 
 
 
-
+/* 
 
 @media screen and (-webkit-min-device-pixel-ratio: 1.25),
 screen and (min-resolution: 120dpi) {}
@@ -234,4 +234,4 @@ screen and (min-resolution: 120dpi) {}
         flex-direction: column-reverse;
         text-align: center;
     }
-}
+} */

@@ -5,7 +5,7 @@
     display: flex;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 1.25),
+/* @media screen and (-webkit-min-device-pixel-ratio: 1.25),
 screen and (min-resolution: 120dpi) {}
 
 @media (min-width: 1200px) and (max-width: 1399px) {}
@@ -47,7 +47,6 @@ screen and (min-resolution: 120dpi) {}
 
     .servicesCardContainer> :nth-child(1), .servicesCardContainer> :nth-child(4) {
         border-radius: 12px;
-        /* background: transparent; */
     }
 
     .servicesCard {
@@ -60,4 +59,4 @@ screen and (min-resolution: 120dpi) {}
         gap: 20px;
 
     }
-}
+} */

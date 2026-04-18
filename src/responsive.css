@@ -1,16 +1,906 @@
-@media screen and (-webkit-min-device-pixel-ratio: 1.25),
-screen and (min-resolution: 120dpi) {}
+/* Large desktops */
+@media (min-width: 1400px) {}
 
-@media (min-width: 1200px) and (max-width: 1399px) {}
+/* Laptops / desktops */
+@media (min-width: 1200px) and (max-width: 1399px) {
+       .heading {
+        width: fit-content;
+    }
 
-@media (max-width: 992px) {}
+    .heading.center {
+        width: 700px;
+    }
+}
 
-@media (min-width: 1024px) and (max-width: 1199px) {}
+/* Small laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
 
-@media (min-width: 768px) and (max-width: 1023px) {}
+    /* Nav Top */
+    .topbar {
+        display: none;
+    }
 
-@media (min-width: 320px) and (max-width: 767px) {
-   
- 
+    /* Navbar */
+    .navbar {
+        ul {
+            display: none;
+        }
+    }
 
+    /* Nav Bottom */
+    .bottom-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: unset;
+    }
+
+    .heading {
+        width: fit-content;
+    }
+
+    .heading.center {
+        width: 700px;
+    }
+
+    .heroBottom .row {
+        gap: unset;
+    }
+
+
+
+
+    /* Vertical Card */
+    .VerticalHover {
+        padding: 50px 14px;
+        overflow: hidden;
+    }
+
+    .VerticalHoverContainer {
+        margin-top: 34px;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .VerticalHoverCard.active {
+        width: 100%;
+    }
+
+    .VerticalHoverCard:hover {
+        width: 100%;
+    }
+
+    .VerticalHoverCard {
+        width: 100%;
+        height: 100%;
+    }
+
+    .VerticalHoverCardData {
+        transform: rotate(0deg);
+        height: 100%;
+    }
+
+    .VerticalHoverCard.active .VerticalHoverCardData {
+        width: 70%;
+    }
+
+    .VerticalHoverCard {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .VerticalHoverCardNumber h4 {
+        font-size: 1.8rem;
+    }
+
+    .VerticalHoverCardNumber h4::before {
+        right: 8px;
+        width: 38px;
+        height: 38px;
+        top: -1px;
+    }
+
+    .VerticalHoverCardNumber {
+        width: 100%;
+    }
+
+    .VerticalHoverCard h3 {
+        font-size: 1.8rem;
+    }
+
+    .VerticalHoverCard.active .VerticalHoverCardData h3 {
+        margin-bottom: 8px;
+    }
+
+    /* Hover Card */
+    section.sec-2 {
+        overflow: hidden;
+    }
+
+    .hoverCard {
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        text-align: center;
+    }
+
+    .hoverCard::before {
+        width: 106%;
+        left: -9px;
+        height: 65%;
+
+
+    }
+
+    .hoverCard:hover::before {
+        height: 109%;
+    }
+
+    /* Review Slider */
+    /* Review Slider */
+    .reviewSliderSection {
+        overflow: hidden;
+    }
+
+    .reviewSlider.swiper {
+        width: 70%;
+    }
+
+
+    /* Service Section */
+    .ServicesSection .row {
+        align-items: center;
+    }
+
+    .servicesCardIcon {
+        margin-bottom: 4px;
+    }
+
+    .servicesCard {
+        width: 100%;
+    }
+
+    .servicesCardContainer> :nth-child(1), .servicesCardContainer> :nth-child(4) {
+        border-radius: 12px;
+    }
+
+    .servicesCard {
+        border-radius: 12px;
+        background: #F6F6F6;
+    }
+
+    .servicesCardContainer {
+        margin-top: 50px;
+        gap: 20px;
+
+    }
+
+    /* Footer Form */
+    .inputbox {
+        width: 100%;
+    }
+
+}
+
+
+/*  Tablets  */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Nav Top */
+    .topbar {
+        display: none;
+    }
+
+    /* Navbar */
+    .navbar {
+        ul {
+            display: none;
+        }
+    }
+
+    /* Nav Bottom */
+    .bottom-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: unset;
+    }
+
+    /* Hero Section */
+    h2 {
+        font-size: 2.4rem;
+        line-height: 40px;
+    }
+
+    .hero-data {
+        text-align: center;
+    }
+
+    .hero-img {
+        width: 60%;
+        margin: auto;
+    }
+
+    .heading h2,
+    .heading p {
+        text-align: center;
+    }
+
+    .sec-1 {
+        text-align: center;
+    }
+
+    .sec-1 .container>:nth-child(2) {
+        margin: 0;
+        gap: 10px;
+        margin-top: 26px;
+        margin-bottom: 36px;
+    }
+
+    .image {
+        width: 60%;
+        margin: auto;
+    }
+
+    .SecondBanner_data p {
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .VerticalHover {
+        overflow: hidden;
+    }
+
+
+    .reviewSliderSection .row {
+        gap: 40px;
+    }
+
+    .reviewSliderSection .heading p {
+        text-align: center;
+    }
+
+    /* review Slider */
+    .reviewSliderSection {
+        overflow: hidden;
+    }
+
+    /* Vertical Card */
+    .VerticalHover {
+        padding: 50px 14px;
+    }
+
+    .VerticalHoverContainer {
+        margin-top: 34px;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .VerticalHoverCard.active {
+        width: 100%;
+    }
+
+    .VerticalHoverCard {
+        width: 100%;
+        height: 100%;
+    }
+
+    .VerticalHoverCardData {
+        transform: rotate(0deg);
+        width: 100%;
+        height: 100%;
+    }
+
+    .VerticalHoverCardNumber h4 {
+        font-size: 1.6rem;
+    }
+
+    .VerticalHoverCardNumber h4::before {
+        right: 8px;
+        width: 34px;
+        height: 34px;
+        top: -1px;
+    }
+
+    .VerticalHoverCardNumber {
+        width: 100%;
+    }
+
+    .VerticalHoverCard h3 {
+        font-size: 1.4rem;
+    }
+
+    .VerticalHoverCard.active .VerticalHoverCardData h3 {
+        margin-bottom: 8px;
+    }
+
+    /* Service Section */
+    .services-img {
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+
+    .servicesCardContainer {
+        margin-top: 36px;
+    }
+
+    /* Faq */
+    .faq-bg::after {
+        display: none;
+    }
+
+    .faq-img {
+        width: 60%;
+        margin: auto;
+    }
+
+    .faq-bg {
+        margin: 0px;
+    }
+
+    /* Footer Form */
+    .footer_Form {
+        margin: 50px 0;
+    }
+
+    .Footer_form_main {
+        width: 100%;
+    }
+
+    .footer_form_left_box {
+        border: none;
+        border-top: 1px solid #fff;
+    }
+
+    .footer_Form_Left, .footer_form_right {
+        width: 100%;
+    }
+
+    .footer_form_left_box {
+        width: 100%;
+    }
+
+    .inputbox {
+        width: 100%;
+    }
+
+    .footer_form_bottom {
+        gap: 20px;
+
+    }
+
+    .footer_form_bottom {
+        gap: 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    /* Footer */
+    footer {
+        padding-top: unset;
+    }
+}
+
+/*Mobile Devices  */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* Nav Top */
+    .topbar {
+        display: none;
+    }
+
+    /* Navbar */
+    .navbar {
+        ul {
+            display: none;
+        }
+    }
+
+    /* Nav Bottom */
+    .bottom-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: unset;
+    }
+
+    /* Hero Section */
+    h2 {
+        font-size: 2.4rem;
+        line-height: 40px;
+    }
+
+    .hero-data {
+        text-align: center;
+    }
+
+    .hero-img {
+        width: 60%;
+        margin: auto;
+    }
+
+    .heading h2,
+    .heading p {
+        text-align: center;
+    }
+
+    .sec-1 {
+        text-align: center;
+    }
+
+    .sec-1 .container>:nth-child(2) {
+        margin: 0;
+        gap: 10px;
+        margin-top: 26px;
+        margin-bottom: 36px;
+    }
+
+    .image {
+        width: 60%;
+        margin: auto;
+    }
+
+    .SecondBanner_data p {
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .VerticalHover {
+        overflow: hidden;
+    }
+
+
+    .reviewSliderSection .row {
+        gap: 40px;
+    }
+
+    .reviewSliderSection .heading p {
+        text-align: center;
+    }
+
+    /* review Slider */
+    .reviewSliderSection {
+        overflow: hidden;
+    }
+
+    /* Vertical Card */
+    .VerticalHover {
+        padding: 50px 14px;
+    }
+
+    .VerticalHoverContainer {
+        margin-top: 34px;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .VerticalHoverCard.active {
+        width: 100%;
+    }
+
+    .VerticalHoverCard {
+        width: 100%;
+        height: 100%;
+    }
+
+    .VerticalHoverCardData {
+        transform: rotate(0deg);
+        width: 100%;
+        height: 100%;
+    }
+
+    .VerticalHoverCardNumber h4 {
+        font-size: 1.6rem;
+    }
+
+    .VerticalHoverCardNumber h4::before {
+        right: 8px;
+        width: 34px;
+        height: 34px;
+        top: -1px;
+    }
+
+    .VerticalHoverCardNumber {
+        width: 100%;
+    }
+
+    .VerticalHoverCard h3 {
+        font-size: 1.4rem;
+    }
+
+    .VerticalHoverCard.active .VerticalHoverCardData h3 {
+        margin-bottom: 8px;
+    }
+
+    /* Service Section */
+    .services-img {
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+
+    .servicesCardContainer {
+        margin-top: 36px;
+    }
+
+    /* Faq */
+    .faq-bg::after {
+        display: none;
+    }
+
+    .faq-img {
+        width: 60%;
+        margin: auto;
+    }
+
+    .faq-bg {
+        margin: 0px;
+    }
+
+    /* Footer Form */
+    .footer_Form {
+        margin: 50px 0;
+    }
+
+    .Footer_form_main {
+        width: 100%;
+    }
+
+    .footer_form_left_box {
+        border: none;
+        border-top: 1px solid #fff;
+    }
+
+    .footer_Form_Left, .footer_form_right {
+        width: 100%;
+    }
+
+    .footer_form_left_box {
+        width: 100%;
+    }
+
+    .inputbox {
+        width: 100%;
+    }
+
+    .footer_form_bottom {
+        gap: 20px;
+
+    }
+
+    .footer_form_bottom {
+        gap: 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    /* Footer */
+    footer {
+        padding-top: unset;
+    }
+}
+
+
+
+/*  Small Mobile  */
+@media (max-width: 575px) {
+
+    /* Nav top */
+    .topbar {
+        display: none;
+    }
+
+    /* Navbar */
+    .navbar {
+        padding: 10px 22px;
+
+        .nav-logo {
+            width: 40%;
+        }
+
+        ul {
+            display: none;
+        }
+
+
+    }
+
+    .mobile-nav {
+        display: unset;
+    }
+
+    /* Nav Bottom */
+    .bottom-nav {
+        display: none;
+    }
+
+    .heading {
+        width: fit-content;
+    }
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        line-height: 36px;
+    }
+
+    /* Hero Section */
+
+    .hero-title {
+        text-align: center;
+    }
+
+    .hero-data h1 {
+        font-size: 2.2rem;
+        line-height: 38px;
+    }
+
+    .hero-data h2 {
+        font-size: 1.2rem;
+    }
+
+    .hero-img {
+        width: 74%;
+        margin: 20px auto;
+    }
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        line-height: 32px;
+    }
+
+    .heading p {
+        text-align: center;
+
+    }
+
+    .sec-2 .heading {
+        padding: 0px 12px;
+    }
+
+    .sec-1 p {
+        text-align: center;
+    }
+
+    /* Review Slider */
+    .reviewSliderSection {
+        overflow: hidden;
+    }
+
+    .reviewSliderMain {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+
+    .reviewSlider.swiper {
+        width: 100%;
+    }
+
+    .next, .preview {
+        display: none;
+    }
+
+    .swiper-wrapper {
+        overflow: hidden;
+        border-radius: 18px;
+    }
+
+    .reviewSlider .swiper-slide {
+        display: flex;
+        align-items: unset;
+        justify-content: unset;
+    }
+
+    /* Hover Card */
+    section.sec-2 {
+        overflow: hidden;
+    }
+
+    .hoverCard {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hoverCard::before {
+        width: 106%;
+        left: -12px;
+        height: 65%;
+
+
+    }
+
+    .hoverCard:hover::before {
+        height: 112%;
+    }
+
+    /* Secondary Banner */
+    .SecondBanner_data h2 {
+        font-size: 2rem;
+        line-height: 32px;
+    }
+
+    .SecondBanner_data h3 {
+        font-size: 1.6rem;
+    }
+
+    .SecondBanner_data p {
+        margin-top: 10px;
+        margin-bottom: 24px;
+        font-size: 1rem;
+    }
+
+    /* Vertical Card */
+    .VerticalHover {
+        padding: 50px 14px;
+    }
+
+    .VerticalHoverContainer {
+        margin-top: 34px;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .VerticalHoverCard.active {
+        width: 100%;
+    }
+
+    .VerticalHoverCard {
+        width: 100%;
+        height: 100%;
+    }
+
+    .VerticalHoverCardData {
+        transform: rotate(0deg);
+        width: 100%;
+        height: 100%;
+    }
+
+    .VerticalHoverCardNumber h4 {
+        font-size: 1.6rem;
+    }
+
+    .VerticalHoverCardNumber h4::before {
+        right: 8px;
+        width: 34px;
+        height: 34px;
+        top: -1px;
+    }
+
+    .VerticalHoverCardNumber {
+        width: 100%;
+    }
+
+    .VerticalHoverCard h3 {
+        font-size: 1.4rem;
+    }
+
+    .VerticalHoverCard.active .VerticalHoverCardData h3 {
+        margin-bottom: 8px;
+    }
+
+    /* Services Section */
+    .services-img {
+        width: 70%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .servicesCardIcon {
+        text-align: center;
+        margin-bottom: 6px;
+    }
+
+    .servicesCard {
+        width: 100%;
+        text-align: center;
+    }
+
+    .servicesCardContainer> :nth-child(1), .servicesCardContainer> :nth-child(4) {
+        border-radius: 12px;
+        /* background: transparent; */
+    }
+
+    .servicesCard {
+        border-radius: 12px;
+        background: #F6F6F6;
+    }
+
+    .servicesCardContainer {
+        margin-top: 26px;
+        gap: 20px;
+
+    }
+
+    /* Faq */
+    .faq-bg::after {
+        display: none;
+    }
+
+    .faq-img {
+        width: 60%;
+        margin: auto;
+    }
+
+    .faq-bg {
+        margin: 0px;
+    }
+
+    /* Footer Form */
+    .footer_Form {
+        margin: 50px 0;
+    }
+
+    .Footer_form_main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer_Form_Left, .footer_form_right {
+        width: 100%;
+    }
+
+    .inputbox {
+        width: 100%;
+    }
+
+    .footer_Form_Left img {
+        display: none;
+    }
+
+    .footer_form_left_box {
+        position: unset;
+        width: 100%;
+        border: none;
+        text-align: center;
+    }
+
+    .footer_form_right h3 {
+        text-align: center;
+    }
+
+    .footer_form_right h4 {
+        text-align: center;
+    }
+
+    .footer_form_bottom {
+        gap: 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    /* Footer */
+    footer {
+        padding-top: unset;
+    }
+
+    .footer_top {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .footer_box {
+        text-align: center;
+        margin: 12px 0;
+    }
+
+    .footer_box ul {
+        margin-top: 0;
+    }
 }

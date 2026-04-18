@@ -244,11 +244,11 @@ const Home = () => {
                                 <ReviewSlider data={reviewSliderData} />
                             </div>
                         </div>
+                    </div>
                         <div className="buttons">
                             <Button link={"/"} name={"red"} value={"Get a Quote"} />
                             <Button link={"/"} name={"black"} value={"Chat With Us"} />
                         </div>
-                    </div>
                 </div>
             </section>
 

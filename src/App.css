@@ -91,6 +91,9 @@ header {
 .reviewSliderSection {
   background: #F6F6F6;
 }
+.reviewSliderSection .row{
+  margin-bottom: 40px;
+}
 
 
 
@@ -187,7 +190,7 @@ header {
 
 
 
-
+/* 
 
 @media screen and (-webkit-min-device-pixel-ratio: 1.25),
 screen and (min-resolution: 120dpi) {}
@@ -292,4 +295,4 @@ screen and (min-resolution: 120dpi) {}
   .sec-1 p {
     text-align: center;
   }
-}
+} */
