@@ -3,7 +3,7 @@
 
 /* Laptops / desktops */
 @media (min-width: 1200px) and (max-width: 1399px) {
-       .heading {
+    .heading {
         width: fit-content;
     }
 
@@ -717,8 +717,8 @@
     }
 
     .hoverCard::before {
-        width: 106%;
-        left: -12px;
+        width: 104%;
+        left: -8px;
         height: 65%;
 
 

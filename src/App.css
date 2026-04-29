@@ -15,6 +15,8 @@ header {
   background-position: center;
 }
 
+
+
 .hero .row {
   align-items: center;
 }
@@ -91,7 +93,8 @@ header {
 .reviewSliderSection {
   background: #F6F6F6;
 }
-.reviewSliderSection .row{
+
+.reviewSliderSection .row {
   margin-bottom: 40px;
 }
 
@@ -296,3 +299,48 @@ screen and (min-resolution: 120dpi) {}
     text-align: center;
   }
 } */
+
+/* Hero About */
+.about-hero {
+  /* padding: 50px 0; */
+  background: url(./assets/images/about-top.webp);
+  color: #000;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 140px;
+}
+
+.about-hero .row {
+  justify-content: center;
+  text-align: center;
+}
+
+.about-hero .hero-data {
+  color: #fff;
+  margin-bottom: 34px;
+}
+
+.about-hero .hero-data p {
+  color: #fff;
+}
+
+.about-sec-1 {
+  background: #F6F6F6;
+}
+.about-sec-1 .row{
+  align-items: center;
+}
+.about-sec-1-data .heading {
+  width: fit-content;
+}
+
+.about-sec-1-data .buttons {
+  margin-top: 24px;
+  justify-content: left;
+}
+
+.about-sec-1-img {
+  width: 100%;
+}
